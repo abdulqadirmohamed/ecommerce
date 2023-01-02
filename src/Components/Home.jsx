@@ -1,10 +1,11 @@
-import React from 'react'
-import Hero from '../Pages/Hero'
+import React, { useState } from 'react'
+import { useEffect } from 'react'
+import Product from '../Pages/Product'
 
 const Home = () => {
   return (
     <div>
-        <Hero/>
+        <Product/>
     </div>
   )
 }
